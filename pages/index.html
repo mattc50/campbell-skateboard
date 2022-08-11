@@ -11,7 +11,7 @@
         <script type="text/javascript" src="../public/scripts/script.js"></script>
         <script type="text/javascript" src="../public/scripts/jscolor.js"></script>
         <script type="text/javascript" src="../public/scripts/html2canvas.js"></script>
-        <script>
+        <!--<script>
             function screenshot () {
                 html2canvas(document.querySelector("main")).then(async function(canvas) {
                     const response= await fetch (canvas);
@@ -20,7 +20,7 @@
                     document.body.appendChild(canvas)
                 });
             };
-        </script>
+        </script>-->
 
     </head>
 
@@ -86,9 +86,9 @@
                     <label class="jscolor-label">Board</label>
                     <input data-jscolor="{onInput:'changeColor(this, `board`)'}" value="adcdd8">
                 </div>
-                <div class="save-btn-container" onclick="screenshot()">
+                <!--<div class="save-btn-container" onclick="screenshot()">
                     <label class="save-btn">Save</label>
-                </div>
+                </div>-->
             </div>
         </div>
 
