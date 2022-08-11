@@ -7,7 +7,7 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
+            "name": "node app/index.html",
             "file": "c:\\Users\\19085\\Desktop\\campbell_skateboard\\pages\\index.html"
         }
     ]
